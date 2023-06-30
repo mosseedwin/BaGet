@@ -10,6 +10,8 @@ namespace BaGet.Core
         /// </summary>
         public string ApiKey { get; set; }
 
+        public string ApiKeyFile { get; set; }
+
         /// <summary>
         /// The application root URL for usage in reverse proxy scenarios.
         /// </summary>
